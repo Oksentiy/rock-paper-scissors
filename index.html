@@ -7,14 +7,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <div class="box">
-        <button><img src="rock.png" alt="rock" /></button>
-        <button><img src="scissors.png" alt="scissors" /></button>
-        <button><img src="paper.png" alt="paper" /></button>
+    <div class="container">
+      <div class="buttons">
+        <button class="button">
+          <img class="icon" src="/images/rock.png" alt="rock" />
+        </button>
+        <button class="button">
+          <img class="icon" src="/images/scissors.png" alt="scissors" />
+        </button>
+        <button class="button">
+          <img class="icon" src="images/paper.png" alt="paper" />
+        </button>
+      </div>
+      <div class="game-screen"></div>
+      <div class="bot-part">
+        <button class="button-bot">start</button>
+        <img class="bot" src="images/bot.png" alt="bot" />
       </div>
     </div>
-    <div></div>
     <script src="script.js"></script>
   </body>
 </html>
