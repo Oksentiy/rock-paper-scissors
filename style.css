@@ -1,6 +1,9 @@
+body {
+  display: flex;
+  justify-content: center;
+}
 .container {
   width: 700px;
-  height: 700px;
   border: 2px solid #39bbbb;
   display: flex;
   flex-direction: column;
@@ -17,7 +20,7 @@
   height: 100px;
   border: none;
   border-radius: 50%;
-  background-color: rgb(235, 197, 213);
+  background-color: rgb(159, 235, 238);
   margin: 0 30px;
 }
 .button:hover {
@@ -27,16 +30,39 @@
   background: rgb(218, 81, 176);
 }
 
-.icon {
+.icons {
   width: 60px;
   height: 60px;
 }
 /* game screen */
+
 .game-screen {
+  display: flex;
+
+  align-items: center;
   justify-content: center;
+  gap: 10px;
   width: 500px;
   height: 300px;
   border: 2px solid #f36;
+}
+.my-container {
+  width: 140px;
+  height: 160px;
+}
+.middle-container {
+  height: 200px;
+  width: 60px;
+  border: 1px solid rgb(85, 194, 202);
+}
+.icon {
+  width: 20px;
+  height: 15px;
+}
+.bot-container {
+  width: 140px;
+  height: 160px;
+  border: 1px solid rgb(85, 194, 202);
 }
 
 /* bot-part */
@@ -47,7 +73,7 @@
 .button-bot {
   font-weight: normal;
   text-transform: uppercase;
-  width: 100px;
+  max-width: 100px;
   height: 30px;
   border: none;
   border-radius: 20px;

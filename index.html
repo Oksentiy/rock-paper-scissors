@@ -9,17 +9,21 @@
   <body>
     <div class="container">
       <div class="buttons">
-        <button class="button">
-          <img class="icon" src="/images/rock.png" alt="rock" />
+        <button class="button" id="rock">
+          <img class="icons" src="/images/rock.png" alt="rock" />
         </button>
-        <button class="button">
-          <img class="icon" src="/images/scissors.png" alt="scissors" />
+        <button class="button" id="scissors">
+          <img class="icons" src="/images/scissors.png" alt="scissors" />
         </button>
-        <button class="button">
-          <img class="icon" src="images/paper.png" alt="paper" />
+        <button class="button" id="paper">
+          <img class="icons" src="images/paper.png" alt="paper" />
         </button>
       </div>
-      <div class="game-screen"></div>
+      <div class="game-screen">
+        <div class="my-container" id="my-container"></div>
+        <div class="middle-container"></div>
+        <div class="bot-container"><img src="" alt="" /></div>
+      </div>
       <div class="bot-part">
         <button class="button-bot">start</button>
         <img class="bot" src="images/bot.png" alt="bot" />
