@@ -37,23 +37,28 @@ body {
 /* game screen */
 
 .game-screen {
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
   width: 500px;
   height: 300px;
   border: 2px solid #f36;
+}
+.container-inside-screen {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 20px;
 }
 .my-container {
   width: 140px;
   height: 160px;
 }
 .middle-container {
-  height: 200px;
-  width: 60px;
-  border: 1px solid rgb(85, 194, 202);
+  height: 60px;
+  width: 100px;
+  margin: 20px 220px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #39bbbb;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .icon {
   width: 20px;
@@ -62,7 +67,6 @@ body {
 .bot-container {
   width: 140px;
   height: 160px;
-  border: 1px solid rgb(85, 194, 202);
 }
 
 /* bot-part */
